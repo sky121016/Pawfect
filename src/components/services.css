@@ -5,6 +5,7 @@
     background-color: #f9f9f9;
     justify-content: center;
 }
+
 #services h1{
     color:#525252;
     text-align: center;
@@ -20,8 +21,6 @@
     width: 650px;
     margin:0 auto;
     align-items: center;
-    
-    
 }
 
 .services-items .service-card{

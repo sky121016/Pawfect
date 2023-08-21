@@ -1,15 +1,27 @@
 #header{
     width: 100%;
     height: 100px;
-    background-color: #ffffff;
-    display: flex;
-
     
+    
+    position: relative;
+
+}
+
+#header-container{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
     border-bottom: 1px solid #D8D8D8;
+    position:fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    z-index: 1;
 }
 
 #header .logo{
     width: 250px;
+    height: 48px;
     text-align: center;
     margin:auto;
 }
@@ -33,4 +45,7 @@
 #header .nav .navList li{
     width: 100px;
     text-align: center;
+}
+#header .nav .navList li a:hover{
+    color: var(--primary-color);
 }

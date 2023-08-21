@@ -1,0 +1,235 @@
+#record{
+    width: 520px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.record-container{
+    display: none;
+}
+
+.record-container.active{
+    display: block;
+}
+
+#record h1{
+    color:#525252;
+    text-align: center;
+    padding-top:80px;
+    padding-bottom:60px;
+}
+
+#record > div > p{
+    text-align: center;
+    font-size: var(--body-18);
+    margin-bottom: 50px;
+}
+
+.record-tab{
+    width: 520px;
+    height: 100px;
+    margin: 0 auto;
+}
+.record-tab > ul{
+    width: 360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.record-tab > ul > li{}
+.record-tab > ul > li > a{
+    font-size: var(--head-24);
+    font-weight: 500;
+    color: var(--gray-2);
+    padding: 12px 15px;
+    border-bottom: 2px solid var(--gray-2);
+}
+.record-tab > ul > li > a.on{
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+
+.record-content{
+    width: 520px;
+    /* height: 420px; */
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid var(--primary-color);
+    padding: 24px;
+    box-sizing: border-box;
+}
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.title > h3{
+    font-size: var(--body-18);
+}
+.title > a{
+    display: flex;
+    text-align: center;
+    font-size: var(--body-16);
+    color: var(--gray-1);
+}
+.title > a:hover{
+    color: #333;
+}
+.title > a > svg{
+    margin: 2px 0;
+}
+
+
+
+
+.food{
+    width: 100%;
+    height: 700px;
+    /* display: none; */
+}
+
+.food .food-btn{
+   border: 1px solid var(--primary-color);
+   padding: 12px;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+.food .food-btn a{
+    display: flex;
+    align-items: center;
+    font-size: var(--body-18);
+}
+.food .food-btn a:hover{
+    color: var(--primary-color);
+}
+.food .food-btn a .record-icon{
+    margin-right: 9px;
+}
+.food .food-btn .bigArrow{
+    margin: auto 0;
+}
+
+
+.food-content1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.food-content1 .value{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.food-content1 .value p{
+    font-size: var(--caption-14);
+    color: var(--gray-2);
+    margin: 0;
+}
+.food-content1 .value p > span{
+    color: var(--sub-color);
+    font-size: 28px;
+    font-weight: 700;
+    margin-right: 3px;
+}
+
+
+
+.food-content2{
+    width: 100%;
+    display: flex;
+}
+.food-content2 .small-chart{
+    width: 33.3333%;   
+    position: relative;
+}
+
+.food-content2 .small-chart > svg{
+    width: 100%;
+    margin: 0 auto;
+}
+.food-content2 .small-chart .percentage{
+    position: absolute;
+    left: 50%;
+    top: 36%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+}
+.food-content2 .small-chart > p{
+    text-align: center;
+    font-size: var(--body-16);
+    font-weight: 500;
+}
+
+
+.exercise{
+    width: 100%;
+    height: 700px;
+}
+
+
+.exercise-content1{
+    margin-bottom: 40px;
+}
+.exercise-content1 > p{
+    font-size: var(--caption-14);
+    color: var(--gray-2);
+    margin-bottom: 12px;
+}
+.exercise-content1 > p > span{
+    color: var(--primary-color);
+    font-size: var(--head-24);
+    font-weight: 700;
+    margin-right: 3px;
+}
+.exercise-content1 > svg{
+    width: 470px;
+}
+
+
+
+
+.exercise-content2 > h3{
+    margin-bottom: 16px;
+}
+
+.exercise-content2 > ul > li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.exercise-content2 > ul > li .left{
+    display: flex;
+}
+.exercise-content2 > ul > li .left .box{
+    width: 40px;
+    height: 40px;
+    background-color: #FFD698;
+    border-radius: 10px;
+    margin-right: 12px;
+}
+.exercise-content2 > ul > li .left .text > h4{
+    font-size: var(--body-16);
+    font-weight: 500;
+    line-height: 19px;
+    margin-bottom: 2px;
+}
+.exercise-content2 > ul > li .left .text > p{
+    font-size: var(--caption-14);
+    color: var(--gray-1);
+    line-height: 17px;
+}
+.exercise-content2 > ul > li > p{
+    font-size: var(--caption-14);
+    font-weight: 400;
+    color: var(--primary-color);
+}

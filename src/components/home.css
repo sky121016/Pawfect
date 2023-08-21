@@ -22,43 +22,50 @@
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.00) 100%);
 }
 
-#main .title{
+#main .home-title{
     position: absolute;
     left:60px;
     top:100px;
 }
 
 
-#main .title .slogan{
+#main .home-title .slogan{
     color:var(--white);
     font-size: 40px;
     font-weight: var(--font-weight-sb);
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 
 
 }
 
-#main .title .description{
+#main .home-title .description{
     color:var(--white);
     font-size: var(--body-18);
     font-weight: var(--font-weight-m);
 }
 
-#main .title .logo{
+#main .home-title .logo{
     font-size: var(--head-32);
     color:var(--primary-color);
     font-weight: var(--font-weight-m);
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
-#main .title .startBtn{
-    padding:7px 36px;
+#main .home-title .startBtn{
+    padding:10px 36px;
     border-radius: 25px;
     background-color: var(--primary-color);
-    border:none;
+    border:1px solid transparent;
     color:var(--white);
     font-size: var(--head-20);
     font-weight: var(--font-weight-m);
+    transition: all 0.3s;
+}
+#main .home-title .startBtn:hover{
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--primary-color);
 }
 
 

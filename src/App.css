@@ -14,9 +14,7 @@ li{
 
 a{
   text-decoration: none;
-  color:black;
 }
-
 
 
 h1{
@@ -32,6 +30,7 @@ h1{
 :root{
 
   --primary-color : #FF9900;
+  --sub-color : #DC7B6E;
   --black : #313131;
   --gray-1 : #6E6E6E;
   --gray-2 : #BDBDBD;
@@ -46,6 +45,7 @@ h1{
   --body-16 : 16px;
   --body-18 : 18px;
   --head-20 : 20px;
+  --head-24 : 24px;
   --head-32 : 32px;
 
   --font-weight-r : 400;
