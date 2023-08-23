@@ -29,6 +29,7 @@ h1{
 
 :root{
 
+  /* --primary-color : rgb(255, 153, 0); */
   --primary-color : #FF9900;
   --sub-color : #DC7B6E;
   --black : #313131;

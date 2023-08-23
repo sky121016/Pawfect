@@ -90,7 +90,7 @@
     /* display: none; */
 }
 
-.food .food-btn{
+.record-btn{
    border: 1px solid var(--primary-color);
    padding: 12px;
    border-radius: 10px;
@@ -98,18 +98,21 @@
    justify-content: space-between;
    margin-bottom: 20px;
 }
-.food .food-btn a{
+.record-btn:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(255, 153, 0, 0.5);
+}
+
+.record-btn a{
     display: flex;
     align-items: center;
     font-size: var(--body-18);
 }
-.food .food-btn a:hover{
-    color: var(--primary-color);
-}
-.food .food-btn a .record-icon{
+
+.record-btn a .record-icon{
     margin-right: 9px;
 }
-.food .food-btn .bigArrow{
+.record-btn .bigArrow{
     margin: auto 0;
 }
 

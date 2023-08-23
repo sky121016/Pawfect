@@ -1,8 +1,13 @@
 import React from 'react';
 import './home.css';
 import Header from './Header';
+import Button from '@mui/material/Button';
+
+
 
 const Home = () => {
+
+
   return <>
     <div id="home">
         <Header/>
@@ -14,6 +19,8 @@ const Home = () => {
                 <div className='description'>맞춤형 다이어트 솔루션 제공 서비스</div>
                 <h2 className="logo">Pawfect Body</h2>
                 <a href='#' className='startBtn'>다운로드</a>
+
+            
 
             </div>
 
