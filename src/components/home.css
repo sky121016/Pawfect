@@ -59,7 +59,7 @@
     color:var(--white);
     font-size: var(--head-20);
     font-weight: var(--font-weight-m);
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 #main .home-title .startBtn:hover{
     /* background-color: rgba(255, 255, 255, 0.2); */

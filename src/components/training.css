@@ -1,0 +1,116 @@
+#training{
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+#training h1{
+    color:#525252;
+    text-align: center;
+    padding-top:80px;
+    padding-bottom:60px;
+}
+
+#training > p{
+    text-align: center;
+    font-size: var(--body-18);
+    margin-bottom: 30px;
+}
+
+
+.trainer-container{
+    width: 520px;
+    margin: 0 auto;
+}
+
+.trainer-container > h2{
+    font-size: var(--head-20);
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.trainer-container > h2 > span{
+    color: var(--primary-color);
+}
+
+
+.trainer-container .filter{
+    display: flex;
+    justify-content: right;
+    margin-bottom: 20px;
+}
+.trainer-container .filter > ul{
+    display: flex;
+    gap: 12px;
+}
+.trainer-container .filter > ul > li{
+    padding: 7px 12px;
+    border-radius: 10px;
+    border: 1px solid var(--black);
+    font-size: 14px;
+}
+.trainer-container .filter > ul > li:last-child{
+    padding: 7px;
+}
+.trainer-container .filter > ul > li > a{}
+.trainer-container .filter > ul > li > ul{
+    display: none;
+}
+.trainer-container .filter > ul > li > ul > li{}
+.trainer-container .filter > ul > li > select{
+    width: 60px;
+    /* height: 35px; */
+    border: none;
+    font-size: 14px;
+}
+
+
+
+.trainer-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.trainer-list .trainer-card{
+    border-radius: 10px;
+    border: 1px solid var(--gray-3);
+    padding: 16px;
+    /* box-sizing: border-box; */
+    width: 250px;
+    height: 148px;
+    margin-bottom: 20px;
+}
+.trainer-list .trainer-card .trainer-info{
+    display: flex;
+    margin-bottom: 20px;
+}
+.trainer-list .trainer-card .trainer-info > img{
+    width: 74px;
+    height: 74px;
+    margin-right: 16px;
+}
+.trainer-list .trainer-card .trainer-info .trainer-title > h3{
+    font-size: var(--body-18);
+    font-weight: 500;
+    margin-top: 10px;
+}
+.trainer-list .trainer-card .trainer-info .trainer-title .stars{}
+.trainer-list .trainer-card .stars > img{
+    width: 18px;
+    height: 18px;
+
+    
+}
+.trainer-list .trainer-card .tag{}
+.trainer-list .trainer-card .tag > ul{
+    display: flex;
+    gap: 12px;
+}
+.trainer-list .trainer-card .tag > ul > li{
+    background-color: var(--gray-4);
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 10.5px;
+    font-size: var(--caption-12);
+    line-height: 14px;
+}
