@@ -1,140 +1,60 @@
-import React from 'react'
-import './training.css'
-import trainerImg from '../assets/icons/trainerImg.png';
-import star from '../assets/icons/star.png';
+import React, { useState } from "react";
+import "./training.css";
+import TrainerList from "./TrainerList";
 
 const Training = () => {
-
+  const TrainerData = [
+    {
+      id: 1,
+      name: "강지우",
+      rating: 5,
+      tag: ["산책", "독스포츠", "어질리티"],
+      date: "2022-08-09",
+      review: 53,
+    },
+    {
+      id: 2,
+      name: "김지연",
+      rating: 4,
+      tag: ["산책", "플라이볼", "프리스비"],
+      date: "2020-12-10",
+      review: 62,
+    },
+    {
+      id: 3,
+      name: "정유현",
+      rating: 5,
+      tag: ["플라이볼", "프리스비", "어질리티"],
+      date: "2017-03-11",
+      review: 86,
+    },
+    {
+      id: 4,
+      name: "이주현",
+      rating: 4,
+      tag: ["산책", "어질리티"],
+      date: "2022-11-22",
+      review: 65,
+    },
+  ];
 
   return (
     <div id="training">
-        <h1>1:1 훈련사 매칭</h1>
-        <p>반려동물 다이어트 전문가와의 훈련으로 <br />
-            보다 효과적인 다이어트 솔루션을 제공합니다. </p>
+      <h1>1:1 훈련사 매칭</h1>
+      <p>
+        반려동물 다이어트 전문가와의 훈련으로 <br />
+        보다 효과적인 다이어트 솔루션을 제공합니다.{" "}
+      </p>
 
-        <div className="trainer-container">
-            <h2><span>훈련사</span> 배정</h2>
-            <div className="filter">
-                <ul>
-                    <li><a href="#">별점</a>
-                        <ul>
-                            <li><input type="checkbox" />5</li>
-                            <li><input type="checkbox" />4</li>
-                            <li><input type="checkbox" />3</li>
-                            <li><input type="checkbox" />2</li>
-                            <li><input type="checkbox" />1</li>
-                        </ul>
-                    </li>
+      <div className="trainer-container">
+        <h2>
+          <span>훈련사</span> 배정
+        </h2>
+        <TrainerList data = {TrainerData} />
 
-                    <li><a href="#">지역</a></li>
-
-                    <li><select name="sorting" id="sorting">
-                        <option value="popular">인기순</option>
-                        <option value="popular">최신순</option>
-                        <option value="popular">리뷰순</option>
-                        </select>
-                    </li>
-                </ul>
-            </div>
-
-
-            <div className="trainer-list">
-                <div className="trainer-card">
-                    <div className="trainer-info">
-                        <img src={trainerImg} alt="훈련사" />
-                        <div className="trainer-title">
-
-                            <h3 className='trainer-name'>홍길동</h3>
-                            <div className="stars">
-                                <img src={star} alt="별점" />
-                                <img src={star} alt="별점" />
-                                <img src={star} alt="별점" />
-                                <img src={star} alt="별점" />
-                                <img src={star} alt="별점" />
-                            </div>
-                        </div>
-                    </div>
-                    <div className="tag">
-                        <ul>
-                            <li>#산책</li>
-                            <li>#독스포츠</li>
-                            <li>#어질리티</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="trainer-card">
-                    <div className="trainer-info">
-                        <img src={trainerImg} alt="훈련사" />
-                        <div className="trainer-title">
-
-                            <h3 className='trainer-name'>홍길동</h3>
-                            <div className="stars">
-                                <img src={star} alt="별점" />
-                                <img src={star} alt="별점" />
-                                <img src={star} alt="별점" />
-                                <img src={star} alt="별점" />
-                                <img src={star} alt="별점" />
-                            </div>
-                        </div>
-                    </div>
-                    <div className="tag">
-                        <ul>
-                            <li>#산책</li>
-                            <li>#독스포츠</li>
-                            <li>#어질리티</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="trainer-card">
-                    <div className="trainer-info">
-                        <img src={trainerImg} alt="훈련사" />
-                        <div className="trainer-title">
-
-                            <h3 className='trainer-name'>홍길동</h3>
-                            <div className="stars">
-                                <img src={star} alt="별점" />
-                                <img src={star} alt="별점" />
-                                <img src={star} alt="별점" />
-                                <img src={star} alt="별점" />
-                                <img src={star} alt="별점" />
-                            </div>
-                        </div>
-                    </div>
-                    <div className="tag">
-                        <ul>
-                            <li>#산책</li>
-                            <li>#독스포츠</li>
-                            <li>#어질리티</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="trainer-card">
-                    <div className="trainer-info">
-                        <img src={trainerImg} alt="훈련사" />
-                        <div className="trainer-title">
-
-                            <h3 className='trainer-name'>홍길동</h3>
-                            <div className="stars">
-                                <img src={star} alt="별점" />
-                                <img src={star} alt="별점" />
-                                <img src={star} alt="별점" />
-                                <img src={star} alt="별점" />
-                                <img src={star} alt="별점" />
-                            </div>
-                        </div>
-                    </div>
-                    <div className="tag">
-                        <ul>
-                            <li>#산책</li>
-                            <li>#독스포츠</li>
-                            <li>#어질리티</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Training
+export default Training;

@@ -53,23 +53,23 @@ const Shop = () => {
             <div className="product">
                 <h2><span>여름이 </span>맞춤형 추천 상품</h2>
                 <div className="product-list">
-                    {Data.map(({id, title, originPrice, salePrice, image}) => {
+                    {Data.map((product) => {
                         return (
-                            <div className="product-item">
+                            <div className="product-item" key={product.id}>
                                 <div className="product-img">
-                                    <img src={image} alt="이미지" />
+                                    <img src={product.image} alt="이미지" />
                                     <div className="cart"><img src={cart} alt="장바구니" /></div>
                                 </div>
 
-                                <p className='product-title'>{title}</p>
-                                {salePrice ? (
+                                <p className='product-title'>{product.title}</p>
+                                {product.salePrice ? (
                                     <div className="price">
-                                        <p className='originPrice strikethrough'>{originPrice}</p>
-                                        <p>{salePrice}</p>
+                                        <p className='originPrice strikethrough'>{product.originPrice}</p>
+                                        <p>{product.salePrice}</p>
                                     </div>
                                 ) : (
                                     <div className="price">
-                                        <p>{originPrice}</p>
+                                        <p>{product.originPrice}</p>
                                     </div>
                                 )}
                             </div>

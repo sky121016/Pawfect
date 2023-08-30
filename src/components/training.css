@@ -39,6 +39,7 @@
     justify-content: right;
     margin-bottom: 20px;
 }
+
 .trainer-container .filter > ul{
     display: flex;
     gap: 12px;
@@ -48,20 +49,35 @@
     border-radius: 10px;
     border: 1px solid var(--black);
     font-size: 14px;
+    background-color: #fff;
 }
 .trainer-container .filter > ul > li:last-child{
     padding: 7px;
 }
-.trainer-container .filter > ul > li > a{}
-.trainer-container .filter > ul > li > ul{
-    display: none;
-}
-.trainer-container .filter > ul > li > ul > li{}
+
 .trainer-container .filter > ul > li > select{
     width: 60px;
     /* height: 35px; */
     border: none;
     font-size: 14px;
+}
+
+.trainer-container .filter > ul > li:first-child{
+    position: relative;
+}
+.trainer-container .filter > ul > li:hover{
+    border: 1px solid var(--primary-color);
+}
+
+#ratingCheck{
+    position: absolute;
+    left: 0;
+    top: 35px;
+    background-color: #fff;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
 }
 
 
@@ -92,7 +108,7 @@
 .trainer-list .trainer-card .trainer-info .trainer-title > h3{
     font-size: var(--body-18);
     font-weight: 500;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 .trainer-list .trainer-card .trainer-info .trainer-title .stars{}
 .trainer-list .trainer-card .stars > img{
