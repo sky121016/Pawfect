@@ -4,6 +4,7 @@ import Services from './components/Services';
 import Record from './components/Record';
 import Shop from './components/Shop';
 import Training from './components/Training';
+import Community from './components/Community';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Record/>
       <Shop/>
       <Training/>
+      <Community/>
     </div>
   );
 }
