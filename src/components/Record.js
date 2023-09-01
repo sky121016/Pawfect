@@ -51,7 +51,7 @@ const Record = () => {
           </p>
 
           <div className="record-btn">
-            <a href="#">
+            <a href="#record">
               <svg
                 className="record-icon"
                 width="30"
@@ -123,7 +123,7 @@ const Record = () => {
           <div className="record-content">
             <div className="title">
               <h3>섭취량</h3>
-              <a href="#">
+              <a href="#record">
                 식단 기록하기
                 <svg
                   width="20"
@@ -397,7 +397,7 @@ const Record = () => {
 
 
           <div className="record-btn">
-            <a href="#">
+            <a href="#record">
               <svg
                 className="record-icon"
                 width="30"

@@ -81,7 +81,6 @@ const Community = () => {
                         <input id="write-title" type="text" placeholder="제목을 입력해주세요." />
                         
                         <label htmlFor="">내용</label>
-                        {/* <input id="write-post" type="textarea" cols="100" /> */}
                         <textarea name="write-post" id="write-post" rows="9" cols="40"  placeholder="내용을 입력해주세요. "></textarea>
 
 

@@ -34,7 +34,7 @@
     font-size: 40px;
     font-weight: var(--font-weight-sb);
     margin-bottom: 30px;
-
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
 
 }
 

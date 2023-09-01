@@ -67,7 +67,7 @@ const TrainerList = ({data}) => {
     <>
         <div className="filter">
             <ul>
-                <li><a href="#train" onClick={showRatingCheck}>별점</a>
+                <li><a href="#training" onClick={showRatingCheck}>별점</a>
                     <div id="ratingCheck">
                             <ul>
                                 <li><input type="checkbox" value={5} /> 5</li>
@@ -79,7 +79,7 @@ const TrainerList = ({data}) => {
                     </div>
                 </li>
     
-                <li><a href="#train">지역</a></li>
+                <li><a href="#training">지역</a></li>
 
                 <li>
                     <select

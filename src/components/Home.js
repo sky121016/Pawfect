@@ -10,7 +10,7 @@ const Home = () => {
 
   return <>
     <div id="home">
-        <Header/>
+        {/* <Header/> */}
         <main id='main'>
             <div className='gradient'></div>
             <div className='home-title'>
