@@ -10,7 +10,7 @@ import Community from './components/Community';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      {/* <Header/> */}
       <Home/>
       <Services/>
       <Record/>
