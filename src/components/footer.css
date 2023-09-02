@@ -1,0 +1,39 @@
+#footer{
+    width: 100%;
+    height: 150px;
+    background-color: #232323;
+    font-size: var(--caption-12);
+}
+
+#footer div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+a, a>b{
+    color: var(--gray-1);
+}
+
+p{
+    color: var(--gray-1);
+}
+
+
+.policy{
+    padding-top: 10px;
+}
+.policy > ul{
+    display: flex;
+}
+.policy > ul > li > a{
+    display: inline-block;
+    padding: 10px 0;
+    padding-right: 20px;
+}
+
+.app-name p{
+    line-height: 24px;
+}
+.copyright p{
+    line-height: 24px;
+}
