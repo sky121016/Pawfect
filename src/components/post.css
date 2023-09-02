@@ -1,0 +1,67 @@
+.post{
+    width: 478px;
+}
+
+.userInfo{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userInfo .left-side{
+    display: flex;
+}
+.userInfo .left-side .profile-image{
+    margin-right: 12px;
+    width: 50px;
+    border-radius: 50px;
+}
+.userInfo .left-side .username{
+    font-size: 16px;
+    font-weight: 500;
+}
+.userInfo .left-side .date{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--gray-1);
+}
+
+.userInfo .more{
+    width: 18px;
+    height: 4px;
+}
+
+.post-content{
+    margin-bottom: 24px;
+}
+.post-content > h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.post-content > p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.post-content .post-img > img{
+    width: 205px;
+    border-radius: 5px;
+}
+
+.post-footer{
+    display: flex;
+}
+.post-footer > div {
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+}
+.post-footer > div > svg{
+    margin-right: 6px;
+}
+.post-footer > div .footer-count{
+    font-size: 14px;
+    font-weight: 400;
+}
