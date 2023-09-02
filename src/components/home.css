@@ -42,6 +42,7 @@
     color:var(--white);
     font-size: var(--body-18);
     font-weight: var(--font-weight-m);
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.3);
 }
 
 #main .home-title .logo{
@@ -49,6 +50,7 @@
     color:var(--primary-color);
     font-weight: var(--font-weight-m);
     margin-bottom: 30px;
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
 }
 
 #main .home-title .startBtn{

@@ -16,22 +16,15 @@ a{
   text-decoration: none;
 }
 
-
 h1{
   font-size: var(--head-32);
 }
-
 
 img{
   vertical-align: top;
 }
 
-
-
-
 :root{
-
-  /* --primary-color : rgb(255, 153, 0); */
   --primary-color : #FF9900;
   --sub-color : #DC7B6E;
   --black : #313131;
