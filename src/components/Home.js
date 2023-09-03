@@ -17,7 +17,7 @@ const Home = () => {
                 <h1 className="slogan">체중까지<br />완벽한<br />반려동물을 위해</h1>
                 <div className='description'>맞춤형 다이어트 솔루션 제공 서비스</div>
                 <h2 className="logo">Pawfect Body</h2>
-                <a href='/' className='startBtn'>다운로드</a>
+                <a href='#home' className='startBtn'>다운로드</a>
 
 
             </div>
