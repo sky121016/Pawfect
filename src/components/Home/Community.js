@@ -1,11 +1,11 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./community.css";
-import Add from "../assets/icons/Add.png";
+import Add from "../../assets/icons/Add.png";
 import Post from "./Post";
-import Send from "../assets/icons/send.png";
-import postImg1 from "../assets/postImg1.png";
-import postImg2 from "../assets/postImg2.png";
-import postImg3 from "../assets/postImg3.png";
+import Send from "../../assets/icons/send.png";
+import postImg1 from "../../assets/postImg1.png";
+import postImg2 from "../../assets/postImg2.png";
+import postImg3 from "../../assets/postImg3.png";
 
 
 

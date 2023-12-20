@@ -11,3 +11,116 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+/* shopping */
+
+.shop-header{
+  display: flex;
+  padding: 20px 50px;
+  font-weight: var(--font-weight-sb);
+}
+.shop-header ul{
+  display: flex;
+}
+.shop-header ul li{
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+}
+.shop-header ul li.active{
+  color: var(--primary-color);
+}
+.shop-header .category{
+  width: 200px;
+  padding: 10px 20px;
+  text-align: left;
+  margin-right: 50px;
+}
+
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-container .product-item{
+  width: 250px;
+  height: 500px;
+  margin: 10px;
+}
+
+.product-container .product-item .product-img {
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.product-container .product-item .product-img>img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.product-container .product-item .product-img .cart{
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  cursor: pointer;
+}
+
+.product-container .product-item .product-tag{
+  /* height: 30px; */
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.product-container .product-item .product-tag span{
+  padding: 1px 4px;
+  border: 1px solid;
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  font-size: var(--caption-12);
+  margin-right:4px;
+  line-height: 16px;
+  border-radius: 3px;
+}
+
+
+.product-container .product-item .product-title{
+  width: 90%;
+  font-size: var(--body-18);
+  color: var(--black);
+  /* margin: 10px 0; */
+}
+
+
+.product-container .product-item .price{
+  line-height: 1.2;
+  font-size: var(--body-16);
+  font-weight: var(--font-weight-sb);
+}
+
+.product-container .product-item .price p{
+  color: var(--black);
+}
+
+.product-container .product-item .price span{
+  color: var(--primary-color);
+}
+
+
+.product-container .product-item .price .originPrice.strikethrough{
+  font-size: var(--caption-14);
+  color: var(--gray-2);
+  text-decoration: line-through;
+  line-height: 21px;
+  vertical-align: middle;
+}
