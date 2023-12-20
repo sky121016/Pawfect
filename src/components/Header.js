@@ -12,10 +12,10 @@ const Header = () => {
                 <nav className='nav'>
                     <ul className='navList'>
                         <li><a href="#home">홈</a></li>
-                        <li><a href="#record">식단</a></li>
-                        <li><a href="#training">훈련</a></li>
-                        <li><a href="#community">커뮤니티</a></li>
-                        <li><a href="#home">마이</a></li>
+                        <li><a href="#">식단</a></li>
+                        <li><a href="#">훈련</a></li>
+                        <li><a href="#">커뮤니티</a></li>
+                        <li><a href="#">마이</a></li>
                     </ul>
                 </nav>
             </div>
