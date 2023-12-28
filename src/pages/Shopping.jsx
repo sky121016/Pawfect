@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
-import {products} from './ProductDummy.js';
+import {products} from '../components/ProductDummy.js';
 
-import Product from './Product';
+import Product from '../components/Product.jsx';
 
 
 const Shopping = () => {

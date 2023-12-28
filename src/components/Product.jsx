@@ -1,11 +1,19 @@
 import React from "react";
 import cart from "../assets/icons/cart.svg"
-import chartArrow from "../assets/icons/chart-arrow.svg"
+import { useNavigate } from "react-router-dom";
 
 const Product = (props) => {
     const {id, title, originPrice, salePrice, percentage, image, tag} = props.product;
+
+    const navigate = useNavigate();
+    const onClickProduct = () => {
+        navigate(`/shopping/product/${title}`,{
+            state:props.product
+        })
+    }
+
     return (
-        <div className="product-item" key={id}>
+        <div className="product-item" key={id} onClick={onClickProduct}>
             <div className="product-img">
                 <img src={image} alt="이미지" />
                 <div className="cart">

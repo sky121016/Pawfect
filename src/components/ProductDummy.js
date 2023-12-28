@@ -37,7 +37,7 @@ export const products = [
     },
     {
         id:5,
-        title:"DOG 스몰브리드 2종 (택1) (1.8kg/4.5kg)",
+        title:"DOG 스몰브리드 2종 (택1)",
         originPrice:"38,000원",
         salePrice:"34,200원",
         percentage:"10%",
@@ -64,7 +64,7 @@ export const products = [
     },
     {
         id:8,
-        title:"DOG 더리얼 로우 닭고기 어덜트 2종 (택1) (50g/360g)",
+        title:"DOG 더리얼 로우 닭고기 어덜트 2종 (택1)",
         originPrice:"10,000원",
         salePrice:"7,500원",
         percentage:"25%",
