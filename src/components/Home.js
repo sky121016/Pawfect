@@ -1,6 +1,12 @@
 import React from 'react';
 import './home.css';
 import Header from './Header';
+import Services from './Home/Services';
+import Record from './Home/Record';
+import Shop from './Home/Shop';
+import Training from './Home/Training';
+import Community from './Home/Community';
+
 
 
 
@@ -9,7 +15,6 @@ const Home = () => {
 
   return <>
     <div id="home">
-        <Header/>
         <main id='main'>
             <div className='gradient'></div>
             <div className='home-title'>
@@ -18,11 +23,14 @@ const Home = () => {
                 <div className='description'>맞춤형 다이어트 솔루션 제공 서비스</div>
                 <h2 className="logo">Pawfect Body</h2>
                 <a href='#home' className='startBtn'>다운로드</a>
-
-
             </div>
 
         </main>
+        <Services/>
+        <Record/>
+        <Shop/>
+        <Training/>
+        <Community/>
 
         
     </div>

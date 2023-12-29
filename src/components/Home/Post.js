@@ -1,7 +1,7 @@
 import React from 'react'
 import './post.css';
-import profile from "../assets/icons/trainerImg.png";
-import more from "../assets/icons/more.png";
+import profile from "../../assets/icons/trainerImg.png";
+import more from "../../assets/icons/more.png";
 
 const Post = (props) => {
   return (

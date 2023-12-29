@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import trainerImg from "../assets/icons/trainerImg.png";
-import star from "../assets/icons/star.png";
+import trainerImg from "../../assets/icons/trainerImg.png";
+import star from "../../assets/icons/star.png";
 
 
 const TrainerList = ({data}) => {

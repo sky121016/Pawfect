@@ -94,9 +94,6 @@ const Services = () => {
                 <h2>정보 공유 커뮤니티</h2>
             </div>
 
-
-
-
           </div>
         </div>
     </>

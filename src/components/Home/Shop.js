@@ -1,9 +1,9 @@
 import React from 'react'
 import './shop.css'
-import Image1 from "../assets/image1.png"
-import Image2 from "../assets/image2.png"
-import cart from "../assets/icons/cart.svg"
-import chartArrow from "../assets/icons/chart-arrow.svg"
+import Image1 from "../../assets/image1.png"
+import Image2 from "../../assets/image2.png"
+import cart from "../../assets/icons/cart.svg"
+import chartArrow from "../../assets/icons/chart-arrow.svg"
 
 const Shop = () => {
     const Data = [
