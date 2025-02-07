@@ -211,3 +211,33 @@ code {
   font-weight: var(--font-weight-sb);
 
 }
+
+
+
+
+.community-header{
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 10px 0;
+
+
+  ul {
+    display: flex;
+    gap: 10px;
+
+    li {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      border: 1px solid var(--black);
+    }
+
+    li.active {
+      border: 1px solid var(--primary-color);
+      box-shadow: 3px 3px 5px var(--primary-color);
+    }
+  }
+}
