@@ -1,8 +1,9 @@
 import React from 'react'
+import Training from '../components/Home/Training'
 
 const Trainer = () => {
   return (
-    <div>Trainer</div>
+    <Training />
   )
 }
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components';
 import {products} from '../components/ProductDummy.js';
 
 import Product from '../components/Product.jsx';
